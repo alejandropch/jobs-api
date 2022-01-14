@@ -36,7 +36,7 @@ app.use(cors())
 
 // routes
 app.get('/', (req,res)=>{
-  res.send("<h1>Job api</h1><a href='/api-docs'>Documentation</a>")
+  res.send("<h1>Jobs api</h1><a href='/api-docs'>Documentation</a>")
 })
 app.use('/api-docs', swaggerUI.serve, swaggerUI.setup(swaggerDocument))
 
