@@ -29,7 +29,7 @@ app.use(cors())
 
 
 // routes
-app.get('/', (res,req)=>{
+app.get('/', (req,res)=>{
   res.send("Job api")
 })
 app.use('/api/v1', routes);
